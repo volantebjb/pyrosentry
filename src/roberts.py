@@ -2,9 +2,9 @@ import cv2
 import os
 from skimage.filters import roberts
 
-directory = "../public/dataset"
-raw_dir = os.path.join(directory, "raw")
-roberts_dir = os.path.join(directory, "roberts")
+dataset_dir = "../public/dataset"
+raw_dir = os.path.join(dataset_dir, "raw")
+roberts_dir = os.path.join(dataset_dir, "roberts")
 
 for i, filename in enumerate(os.listdir(raw_dir)):
     data = f"fluid_flame_{i+1}.jpg"

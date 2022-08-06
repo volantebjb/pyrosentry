@@ -1,10 +1,10 @@
 import cv2
 import os
 
-directory = "../public/dataset"
-raw_dir = os.path.join(directory, "raw")
-rgb_dir = os.path.join(directory, "rgb")
-hsv_dir = os.path.join(directory, "hsv")
+dataset_dir = "../public/dataset"
+raw_dir = os.path.join(dataset_dir, "raw")
+rgb_dir = os.path.join(dataset_dir, "rgb")
+hsv_dir = os.path.join(dataset_dir, "hsv")
 
 for i, filename in enumerate(os.listdir(raw_dir)):
     data = f"fluid_flame_{i+1}.jpg"
