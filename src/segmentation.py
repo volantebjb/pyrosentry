@@ -7,7 +7,6 @@ raw_dir = os.path.join(dataset_dir, "raw")
 hsv_dir = os.path.join(dataset_dir, "hsv")
 segmentation_dir = os.path.join(dataset_dir, "segmentation")
 
-
 for i, filename in enumerate(os.listdir(raw_dir)):
     data = f"fluid_flame_{i+1}.jpg"
     hsv_image = cv2.imread(os.path.join(hsv_dir, data))
