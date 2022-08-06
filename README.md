@@ -1,4 +1,4 @@
-# Liquid Flame Detection
+# Liquid Flame Edge Detection
 
 ## Description
 
